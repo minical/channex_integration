@@ -97,7 +97,7 @@ class Channex_bookings extends MY_Controller
                     $headers = array(
                         "Host: ".$this->channex_host,
                         "Content-Type: application/json",
-                        "user-api-key: ".$token
+                        "user-api-key: 'pPEGqDXwn8+ou67pgtml5l6MemQuYmDx6OdLWsu1Md/5wGrgYeysZCpp0H0yRYo5'"
                     );
 
                     if(function_exists('retrieve_booking')){ // retrieve_booking function from Channex PCI helper
